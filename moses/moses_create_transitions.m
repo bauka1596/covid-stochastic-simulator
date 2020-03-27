@@ -109,7 +109,7 @@ end
 if param.n_exp ~=0
     count = count + 1;
     source{count} = ['Quarantined_', num2str(param.n_exp)];
-    dest{count} = 'Severe_Infected_1';
+    dest{count} = 'Infected_1';
 end
 
 %% Transition 15 - Infected[i] to Infected[i+1] until i+1 == n_inf
